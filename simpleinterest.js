@@ -2,7 +2,7 @@ let principle =100
 let rate = 2
 let time = 10
 
-function simpleInterest (principle, rate, time)
+export function simpleInterest (principle, rate, time)
 { 
     let answer= principle*time*rate/100
     return answer
