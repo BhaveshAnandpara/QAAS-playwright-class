@@ -1,4 +1,4 @@
-function CompoundInterset(principal, rate, n, time){
+export function CompoundInterset(principal, rate, n, time){
     let answer = principal * Math.pow((1+ (rate/n)),n*time)
     return answer
 }
