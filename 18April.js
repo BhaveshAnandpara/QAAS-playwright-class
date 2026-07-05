@@ -78,44 +78,44 @@
 // dogObj.shakeHands()
 
 
-// class User{
+class User{
 
-//     username; 
-//     state; 
-//     job; 
+    username; 
+    state; 
+    job; 
 
-//     constructor( username, state, job ){
-//         this.username = username;
-//         this.state = state;
-//         this.job = job;
-//     }
+    constructor( username, state, job ){
+        this.username = username;
+        this.state = state;
+        this.job = job;
+    }
 
-//     greetings(){
-//         console.log("Hello")
-//     }
+    greetings(){
+        console.log("Hello")
+    }
 
-//     updateName(name){
-//         this.username = name;
-//     }
+    updateName(name){
+        this.username = name;
+    }
 
-//     updateState(state){
-//         this.state = state;
-//     }
+    updateState(state){
+        this.state = state;
+    }
 
-//     updateJob(job){
-//         this.job = job;
-//     }
+    updateJob(job){
+        this.job = job;
+    }
 
-//     printUserDetails(){
-//         console.log(this.username)
-//         console.log(this.state)
-//         console.log(this.job)
-//     }
+    printUserDetails(){
+        console.log(this.username)
+        console.log(this.state)
+        console.log(this.job)
+    }
 
-// }
+}
 
-// let user1 = new User("Bhavesh", "Pune", "Software Engg.")
-// let user2 = new User("Komal", "Nagpur", "SOftware Engg.")
+let user1 = new User("Bhavesh", "Pune", "Software Engg.")
+let user2 = new User("Komal", "Nagpur", "SOftware Engg.")
 
 // user1.printUserDetails()
 // user2.printUserDetails()
